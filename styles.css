@@ -1,3 +1,77 @@
+/*GENERAL FORMATTING */
 body{
-    background-color: grey;
+width: 55%;
+margin: 0 auto;
+font-family: 'Crimson Pro', serif;
+font-size: 20px;
 }
+
+h1, h2, h4, h5 {
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+footer{
+    color: grey;
+    font-size: 15px;
+}
+
+blockquote {
+    font-size: 23px;
+    font-weight:bold;
+    border: 3px dotted #FF7C1F;
+    letter-spacing: 1px;
+    padding: 20px 50px;
+    width: 80%;
+    margin: 50px auto;
+}
+/*IMAGE WRAPPERS*/
+.image-wrapper p.caption{
+    margin: 1px auto;
+    font-size: 15px;
+    color: #3d3d3d;
+    font-style: italic;
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    }
+
+.credit{
+    margin: 0;
+    font-size: 10px;
+    color: #3d3d3d;
+}
+.image-wrapper {
+    margin: 50px 0;
+}
+
+.graphic {
+    margin: 50px 0;
+    width: 90%;
+}
+/*LINK FORMATTING*/
+a {
+    color: #FF7C1F; /*MATCH COLOR TO GRAPHIC*/
+}
+a:hover {
+    color: #254b8c;
+}
+
+/*FOOTER FORMATTING*/
+footer {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: #FF7C1F;
+}
+
+/*HEADER*/
+#heading-wrapper h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+#heading-wrapper h5{
+    color: #254b8c;
+}
+/*font-family: 'Crimson Pro', serif;
+font-family: 'Josefin Sans', sans-serif;*/
