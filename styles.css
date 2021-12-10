@@ -5,7 +5,9 @@ margin: 0 auto;
 font-family: 'Crimson Pro', serif;
 font-size: 20px;
 }
-
+::selection{
+    background-color: #FF7C1F;
+}
 h1, h2, h4, h5 {
     font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
 }
@@ -52,7 +54,7 @@ blockquote {
 }
 /*LINK FORMATTING*/
 a {
-    color: #FF7C1F; /*MATCH COLOR TO GRAPHIC*/
+    color: #FF7C1F;
 }
 a:hover {
     color: #254b8c;
@@ -69,9 +71,31 @@ footer {
 #heading-wrapper h4{
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: -10px;
+    margin-top: -10px;
 }
+
 #heading-wrapper h5{
     color: #254b8c;
+    text-decoration: underline;
+    font-size: 12px;
+    margin-bottom: 40px;
 }
+
+#heading-wrapper h1{
+    border-style: inset;
+    border-color: #254b8c;
+    padding: 10px;
+    text-transform: uppercase;
+}
+span {
+    background-color: #FF7C1F;
+}
+@media only screen and (max-width: 700px) {
+    body {
+      width: 100%;
+      padding: 0 5px;
+    }
+  }
 /*font-family: 'Crimson Pro', serif;
 font-family: 'Josefin Sans', sans-serif;*/
